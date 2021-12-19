@@ -1,0 +1,26 @@
+{
+  "name": "nft-toolkit",
+  "version": "1.0.0",
+  "description": "Scripts for deploying SNIP20 and SNIP721 contracts.",
+  "main": "index.js",
+  "scripts": {
+    "deploynft": "node deploy_nft.js",
+    "deploytoken": "node deploy_token.js",
+    "preload": "node preload.js",
+    "mint": "node mint.js",
+    "query": "node query.js",
+    "setkey": "node set_view_key.js",
+    "lock": "node lock_contract.js",
+    "unlock": "node unlock_contract.js"
+  },
+  "author": "Xiphiar",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "curve25519-js": "^0.0.4",
+    "dotenv": "^10.0.0",
+    "secretjs": "^0.17.3",
+    "secure-random": "^1.1.2",
+    "text-encoding": "^0.7.0"
+  }
+}
